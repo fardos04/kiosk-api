@@ -7,6 +7,7 @@ const userSchema = new Schema({
     createdAt :{type: Date, default: Date.now},
     password: String, 
     mobile: String,
+    dob: Date,
     avatar:{type: String, default:'https://cdn5.vectorstock.com/i/1000x1000/32/14/user-sign-icon-person-symbol-human-avatar-vector-12693214.jpg'},
     firstName: String,
     lastName: String,
